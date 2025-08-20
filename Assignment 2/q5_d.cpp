@@ -7,7 +7,7 @@ using namespace std;
 void upper_triangular(int arr[4][4]) {
     int row = 4;
     int len = row*(row+1)/2;
-    int upper[len]; // n(n+1)/2 = 10 for n=4
+    int upper[len]; 
     int k = 0;
 
     for (int i = 0; i < row; i++) {
