@@ -21,6 +21,8 @@ class StackUsingArray {
         capacity = size;
     }
 
+    ~StackUsingArray() {delete [] data;}    // Deallocating array's memory
+
 
     bool isEmpty() {
         if(nextIndex == 0) return true;
