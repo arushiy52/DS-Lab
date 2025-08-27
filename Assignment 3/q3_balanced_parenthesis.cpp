@@ -1,4 +1,4 @@
-// To check if parenthesis are balanced or not in an expression having oparands, parenthesis and characters
+// To check if parenthesis are balanced or not in any expression
 
 # include <iostream>
 # include <stack>
